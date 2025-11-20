@@ -39,17 +39,7 @@ def analyze_batch(texts):
     return results
 
 def main():
-    """
-    主函数：演示情感分析的使用
-    """
-    print("=" * 50)
-    print("Transformers 情感分析示例")
-    print("=" * 50)
-    print()
-    
-    # 示例1: 单个文本分析
-    print("示例1: 单个文本情感分析")
-    print("-" * 50)
+   
     test_text = "I love this product! It's amazing and works perfectly."
     result = analyze_sentiment(test_text)
     print(f"文本: {test_text}")
@@ -108,9 +98,6 @@ def main():
         print("提示: 如果网络较慢，可能需要等待模型下载完成")
     
     print()
-    print("=" * 50)
-    print("分析完成！")
-    print("=" * 50)
 
 if __name__ == "__main__":
     main()
