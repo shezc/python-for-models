@@ -96,10 +96,42 @@ python sentiment_analysis.py
 
 ```
 python-for-models/
-├── venv/                  # 虚拟环境目录（运行后生成）
-├── requirements.txt       # 项目依赖
-├── sentiment_analysis.py  # 主程序文件
-└── README.md             # 项目说明文档
+├── venv/                      # 虚拟环境目录（运行后生成）
+├── requirements.txt           # 项目依赖
+├── sentiment_analysis.py      # 情感分析示例程序
+├── learn_transformers.py      # Transformers 核心组件学习指南
+├── transformers_examples.py   # Transformers 实战示例集合
+└── README.md                  # 项目说明文档
+```
+
+## 学习资源
+
+### 1. 核心组件学习 (`learn_transformers.py`)
+
+详细讲解 Transformers 的三个核心组件：
+- **Tokenizer（分词器）**：文本编码和解码
+- **Model（模型）**：神经网络模型的使用
+- **Pipeline（管道）**：高级API的使用
+
+运行方式：
+```bash
+python learn_transformers.py
+```
+
+### 2. 实战示例 (`transformers_examples.py`)
+
+包含多个实际应用场景的完整示例：
+- 情感分析完整流程
+- 批量处理文本
+- 自定义 Tokenizer 参数
+- 获取模型隐藏状态
+- 问答任务
+- 零样本分类
+- 模型配置信息
+
+运行方式：
+```bash
+python transformers_examples.py
 ```
 
 ## 使用说明
